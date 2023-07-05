@@ -1,0 +1,12 @@
+# Intellij
+
+.idea
+
+# Kotlin/JS
+
+.gradle
+build
+
+# Codealike
+
+codealike.json
