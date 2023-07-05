@@ -1,5 +1,5 @@
 plugins {
-	kotlin("js")
+	kotlin("multiplatform")
 }
 
 group = "fr.ayfri"
@@ -12,7 +12,7 @@ repositories {
 }
 
 kotlin {
-	js(IR) {
+	js {
 		browser {
 			commonWebpackConfig {
 				devServer?.open = false

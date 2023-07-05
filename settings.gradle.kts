@@ -7,7 +7,7 @@ pluginManagement {
 	}
 
 	plugins {
-		kotlin("js").version(extra["kotlin.version"] as String)
+		kotlin("multiplatform").version(extra["kotlin.version"] as String)
 	}
 }
 
